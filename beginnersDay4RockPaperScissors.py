@@ -42,7 +42,7 @@ def rock_paper_scissors():
         print(scissors)
     print(f"You Chose: {user_choice}")
 
-    random_number = random.randint(1, 3)
+    random_number = random.randint(0, 2)
     if random_number == 0:
         computer_choice = 'Rock'
         print(rock)
