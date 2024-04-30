@@ -12,15 +12,25 @@ In this course, you'll:
 
 This course is ideal for both beginners looking to establish a solid foundation and experienced programmers seeking to refine their skills. With a focus on consistent practice, you will emerge from this 100-day challenge with a deeper understanding of coding principles and the confidence to tackle real-world programming tasks.
 
+# How to run a program?
+In the python environment run the following:
+```
+    from main import main
+    main()
+```
+
 # Day 1: Generate Band Name
-This program highlights the print and input function in Python.
+>This program highlights the print and input function in Python.
 
 # Day 2: Tip Calculator
-This program involves basic mathematical calculations based on the user input.
+>This program involves basic mathematical calculations based on the user input.
 
 # Day 3: Treasure Island
-This program covers the if statements (nested too) and generates a response based on the user selection.
+>This program covers the if statements (nested too) and generates a response based on the user selection.
 
 # Day 4: Rock Paper Scissors Game
-This program introduces the random function in Python, which is used to select randomly between rock, paper or scissors. If statements are used to determine if the user won or loss.
+>This program introduces the random module in Python, which is used to select randomly between rock, paper or scissors. If statements are used to determine if the user won or loss.
+
+# Day 5: Password Generator
+>This program uses the random module to create a secured password looping over based on users choice of length and shuffling the characters.
 

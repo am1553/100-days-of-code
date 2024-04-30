@@ -1,6 +1,7 @@
 # Day 4 Exercise : Rock Paper Scissors
 import random
 
+
 # rock wins against scissors
 # paper wins against rock
 # scissors wins against paper
@@ -29,7 +30,7 @@ def rock_paper_scissors():
           (____)
     ---.__(___)
         '''
-    choice = input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors")
+    choice = input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors.\n")
     choice_int = int(choice)
     if choice_int == 0:
         user_choice = 'Rock'
@@ -70,3 +71,4 @@ def rock_paper_scissors():
         print("You Win!")
     else:
         print('Error!')
+    exit()
