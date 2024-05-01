@@ -18,21 +18,30 @@ calculator_ascii = """
 
 def calculate():
     print(calculator_ascii)
+    running = True
     first_number = int(input("What's the first number?: "))
-    operation = input("\n + \n - \n * \n / \n Pick an operation?: ")
-    second_number = int(input("What's the second number?: "))
-    result = 0
-    if operation == "+":
-        result = first_number + second_number
-    elif operation == "-":
-        result = first_number - second_number
-    elif operation == "*":
-        result = first_number * second_number
-    elif operation == "/":
-        result = first_number / second_number
-    else:
-        print("Invalid operation!")
-    print(f"{first_number} {operation} {second_number} = {result}")
+    while running:
+
+        operation = input("\n + \n - \n * \n / \n Pick an operation?: ")
+        second_number = int(input("What's the second number?: "))
+        result = 0
+        if operation == "+":
+            result = first_number + second_number
+        elif operation == "-":
+            result = first_number - second_number
+        elif operation == "*":
+            result = first_number * second_number
+        elif operation == "/":
+            result = first_number / second_number
+        else:
+            print("Invalid operation!")
+        print(f"{first_number} {operation} {second_number} = {result}")
+
+        command = input(f"Type 'y' to continue calculating with {result}, or type 'n' to end.")
+        if command == "n":
+            running = False
+        else:
+            first_number = result
 
 
 if __name__ == "__main__":

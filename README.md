@@ -41,3 +41,6 @@ This course is ideal for both beginners looking to establish a solid foundation 
 ### Beginners: Blind Auction
 > This is an auction program, where use of dictionary is introduced. The max bidder is calculated by accessing stored 
 > values using the key.
+
+### Beginners: Calculator
+> This program does the most basic calculation. 
