@@ -131,10 +131,6 @@ words = [
 ]
 
 
-def reduce_life():
-    return print('Oh no. Wrong guess!')
-
-
 def hangman():
     word = random.choice(words).lower()
     blanks = []
