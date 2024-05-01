@@ -37,3 +37,7 @@ This course is ideal for both beginners looking to establish a solid foundation 
 ### Beginners: Caesar Cipher
 > This program encodes and decodes text message with a shift value. I was able to reuse the encode function using 
 > a negative shift value which seems pretty neat.
+
+### Beginners: Blind Auction
+> This is an auction program, where use of dictionary is introduced. The max bidder is calculated by accessing stored 
+> values using the key.
