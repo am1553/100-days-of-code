@@ -1,8 +1,8 @@
-from beginners.day_1_generate_band_name import generate_band_name
-from beginners.day_2_tip_calculator import tip_calculator
-from beginners.day_3_treasure_island import treasure_island
-from beginners.day_4_rock_paper_scissors import rock_paper_scissors
-from beginners.day_5_password_generator import password_generator
+from beginners.generate_band_name import generate_band_name
+from beginners.tip_calculator import tip_calculator
+from beginners.treasure_island import treasure_island
+from beginners.rock_paper_scissors import rock_paper_scissors
+from beginners.password_generator import password_generator
 
 
 def main():
