@@ -23,10 +23,17 @@ This course is ideal for both beginners looking to establish a solid foundation 
 >This program covers the if statements (nested too) and generates a response based on the user selection.
 
 ### Beginners: Rock Paper Scissors Game
->This program introduces the random module in Python, which is used to select randomly between rock, paper or scissors. If statements are used to determine if the user won or loss.
+>This program introduces the random module in Python, which is used to select randomly between rock, paper or scissors.
+> If statements are used to determine if the user won or loss.
 
 ### Beginners: Password Generator
->This program uses the random module to create a secured password looping over based on users choice of length and shuffling the characters.
+>This program uses the random module to create a secured password looping over based on users choice of length and 
+> shuffling the characters.
 
 ### Beginners: Hangman Game
-> This is a hangman game made using ascii and nested if statements with loops. To make this game, a flow chart was first created to make the algorithm. 
+> This is a hangman game made using ascii and nested if statements with loops. To make this game, a flow chart was 
+> first created to make the algorithm.
+
+### Beginners: Caesar Cipher
+> This program encodes and decodes text message with a shift value. I was able to reuse the encode function and using 
+> a negative shift value which seems pretty neat.
