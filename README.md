@@ -35,5 +35,5 @@ This course is ideal for both beginners looking to establish a solid foundation 
 > first created to make the algorithm.
 
 ### Beginners: Caesar Cipher
-> This program encodes and decodes text message with a shift value. I was able to reuse the encode function and using 
+> This program encodes and decodes text message with a shift value. I was able to reuse the encode function using 
 > a negative shift value which seems pretty neat.

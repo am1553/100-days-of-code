@@ -6,4 +6,7 @@ def tip_calculator():
     people = int(input("How many people to split the bill?"))
     bill_per_person = "{:.2f}".format(round(float(total_bill) * (int(tip_percent) / 100 + 1) / people, 2))
     print(f"Each person should pay: ${bill_per_person}")
-    exit()
+
+
+if __name__ == '__main__':
+    tip_calculator()

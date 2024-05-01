@@ -157,3 +157,7 @@ def hangman():
             if "_" in blanks:
                 print("You lost! The word was " + word)
         print(blanks)
+
+
+if __name__ == '__main__':
+    hangman()

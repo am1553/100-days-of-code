@@ -37,5 +37,7 @@ def password_generator():
     random.shuffle(password_arr)
     password = "".join(password_arr)
     print(password)
-    exit()
 
+
+if __name__ == '__main__':
+    password_generator()

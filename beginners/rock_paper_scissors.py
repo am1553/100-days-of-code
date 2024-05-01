@@ -71,4 +71,7 @@ def rock_paper_scissors():
         print("You Win!")
     else:
         print('Error!')
-    exit()
+
+
+if __name__ == '__main__':
+    rock_paper_scissors()

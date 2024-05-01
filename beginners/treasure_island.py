@@ -39,5 +39,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
             print("Oh no! You got attacked by a dragon. Game over.")
     else:
         print("Oh no! You got attacked by a dragon. Game over.")
-    exit()
 
+
+if __name__ == '__main__':
+    treasure_island()
