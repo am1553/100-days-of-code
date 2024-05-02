@@ -43,4 +43,8 @@ This course is ideal for both beginners looking to establish a solid foundation 
 > values using the key.
 
 ### Beginners: Calculator
-> This program does the most basic calculation. Exposure to returning values from other function was demonstrated in this. 
+> This program does the most basic calculation. Exposure to returning values from other function was demonstrated in this.
+
+## Capstone Beginners: Blackjack Game
+> This program is a capstone project, a blackjack game. Everything learnt in the prior challenges was applied to build 
+> this. Such as random, arrays, input, if statements and loops.
