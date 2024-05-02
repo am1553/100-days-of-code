@@ -43,4 +43,4 @@ This course is ideal for both beginners looking to establish a solid foundation 
 > values using the key.
 
 ### Beginners: Calculator
-> This program does the most basic calculation. 
+> This program does the most basic calculation. Exposure to returning values from other function was demonstrated in this. 

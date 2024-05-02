@@ -16,6 +16,21 @@ calculator_ascii = """
 """
 
 
+def addition(a, b):
+    return a + b
+
+
+def subtraction(a, b):
+    return a - b
+
+
+def multiplication(a, b):
+    return a * b
+
+
+def division(a, b):
+    return a / b
+
 def calculate():
     print(calculator_ascii)
     running = True
@@ -26,13 +41,13 @@ def calculate():
         second_number = int(input("What's the second number?: "))
         result = 0
         if operation == "+":
-            result = first_number + second_number
+            result = addition(first_number, second_number)
         elif operation == "-":
-            result = first_number - second_number
+            result = subtraction(first_number, second_number)
         elif operation == "*":
-            result = first_number * second_number
+            result = multiplication(first_number, second_number)
         elif operation == "/":
-            result = first_number / second_number
+            result = division(first_number, second_number)
         else:
             print("Invalid operation!")
         print(f"{first_number} {operation} {second_number} = {result}")
